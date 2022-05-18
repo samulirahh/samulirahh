@@ -29,6 +29,11 @@ h2 {
 } li {
     padding: 2px;
     list-style-type: none;
+} li.dark ~ li {
+    background: black;
+    color: #e6e6e6;
+} li.green + li {
+    background: green;
 }
 
 /* Stanley cups page */
@@ -62,8 +67,15 @@ h2 {
 
 /* TASK 5.1 CSS
 
+SASS :
+
 Changed the different background colors from hex to a scss variable.
 Nested some code.
 Added mixin style().
 Added Arithmetic operator on .card, very simple and useless, tried but couldnt think of any better way to use it.
+
+SELECTORS: 
+
+Added ~ selector to li on the index file to split the list styles in half.
+added + seletor to li on the index file to color one li item green.
  */
