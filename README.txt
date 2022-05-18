@@ -7,4 +7,4 @@ Accordion used in stanley cups page.
 
 
 18.5.2022: Finished work on the site for task 5.1 CSS assignment.
-All of the assignment work is explained further inside a comment at the bottom of the style.scsss file.
+All of the assignment work is explained further inside a read me in the css folder also a comment at the bottom of the style.scsss file.
