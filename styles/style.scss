@@ -1,0 +1,69 @@
+/* Home page */
+
+$orange: #ff751a;
+
+@mixin style($style: Shadow) {
+    background: linear-gradient(90deg, rgba(254,254,254,1) 75%, rgba(246,177,5,1) 93%);
+}
+
+.card {
+    margin: auto;
+} p {
+    padding: 200px - 198px;
+    text-align: center;
+} 
+
+h2 {
+    text-align: center;
+    padding: 5px;
+    color: $orange;
+}
+
+
+.container1 {
+    padding-left: 5%;
+    padding-right: 5%;
+} h3 {
+    padding-top: 5px;
+    text-align: center;
+} li {
+    padding: 2px;
+    list-style-type: none;
+}
+
+/* Stanley cups page */
+
+.stanleycups {
+    padding: 10px;
+    text-align: center;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+/* History page */
+
+.col {
+    border: 1px solid $orange;
+    @include style()
+}
+
+.button {
+    margin: 5px;
+    text-align: center;
+} 
+
+/* DARKMODE */
+.dark {
+    background-color: #222;
+    color: #e6e6e6;
+}
+
+/* TASK 5.1 CSS
+
+Changed the different background colors from hex to a scss variable.
+Nested some code.
+Added mixin style().
+Added Arithmetic operator on .card, very simple and useless, tried but couldnt think of any better way to use it.
+ */
