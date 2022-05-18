@@ -1,8 +1,8 @@
 bootstrap components used: Navbar, card, button and accordion
 
 Navbar used in every page on top of the page.
-Card used on home page.
-Button used in history page.
+Card useb on home page.
+Darkmode Button used in history page.
 Accordion used in stanley cups page.
 
 
