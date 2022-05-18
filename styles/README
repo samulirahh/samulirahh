@@ -1,0 +1,9 @@
+TASK 5.1 CSS
+
+I find coding css to be the most satisfying programming work. I used more SASS on a personal project so I believe im better at it than the returned assignment may show.
+It was harder to figure out how to use SASS well in an already made site.
+
+Changed the different background colors from hex to a scss variable.
+Nested some code.
+Added mixin style().
+Added Arithmetic operator on .card, very simple and useless, tried but couldnt think of any better way to use it. 
